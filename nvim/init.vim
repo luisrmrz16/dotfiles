@@ -1,4 +1,4 @@
-""" Main Configurations
+""" Main Configuration
 set title
 set number
 set numberwidth=3
@@ -24,4 +24,20 @@ set encoding=utf-8
 
 filetype plugin on
 filetype plugin indent on
+
+""" Plugins
+call plug#begin('~/.vim/plugged')
+
+Plug 'morhetz/gruvbox'
+
+call plug#end()
+
+""" Plugins Configuration
+""" Color theme
+let g:gruvbox_bold=1
+let g:gruvbox_italic=1
+
+set background=dark
+let g:gruvbox_contrast_dark='hard'
+colorscheme gruvbox
 
