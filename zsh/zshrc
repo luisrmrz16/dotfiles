@@ -155,6 +155,9 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
 # Flutter SDK environment variable
 export PATH="$PATH:/opt/flutter/bin"
 
+# JetBrains Toolbox
+export PATH="/home/luisrmrz16/.local/share/JetBrains/Toolbox/scripts:$PATH"
+
 # Personal configuration lines
 export VISUAL=code
 export EDITOR=nvim
